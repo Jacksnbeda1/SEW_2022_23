@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HonjX6kX88cs6gVq2Vc/6CbVoZcxO+Kf4PP7JNqim7x4K7kn135ZjN/B80oAP58IOHIWg0o+r5l+QjzhJ6AL9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\HUE01\\HUE01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jakob\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
