@@ -79,6 +79,7 @@ namespace HUE01
             this.txt_AktuelleTemperatur.Name = "txt_AktuelleTemperatur";
             this.txt_AktuelleTemperatur.Size = new System.Drawing.Size(161, 23);
             this.txt_AktuelleTemperatur.TabIndex = 4;
+            this.txt_AktuelleTemperatur.TextChanged += new System.EventHandler(this.txt_AktuelleTemperatur_TextChanged);
             // 
             // lb_MWTemperatur
             // 
