@@ -15,44 +15,34 @@ namespace HUE01
 {
     public partial class Form1 : Form
     {
-        private int port1 = 8888;
-        private UdpClient udpClient;
         private int i = 0;
+        private UdpClient udpClient;
+        private int port1 = 8888;
         public Form1()
         {
             InitializeComponent();
+                  
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            IPEndPoint recieveAdr = new IPEndPoint(IPAddress.Any, port1);
-            udpClient = new UdpClient(recieveAdr);
-            this.RecieveAsync();
-        }
         private async void RecieveAsync()
         {
             Messwert messwert = new Messwert();
+            IPEndPoint recieveAdr = new IPEndPoint(IPAddress.Any, port1);
+            udpClient = new UdpClient(recieveAdr);
+
             while (true)
             {
                 UdpReceiveResult result = await udpClient.ReceiveAsync();
                 this.txt_AktuelleTemperatur.Text = Encoding.UTF8.GetString(result.Buffer) + Environment.NewLine;
-
-                if (i < 150)
-                {
-                    List.Add(txt_AktuelleTemperatur);
-                    i++;
-                }
-                else
-                {
-                    i = 0;
-                    messwert.MWList = List;
-                    float mw = messwert.mw();
-                    this.txt_MWTemp = mw.ToString();
-                }
+            
             }
-
         }
 
-       
+
+        private void btn_readData_Click_1(object sender, EventArgs e)
+        {        
+            this.RecieveAsync();
+        }
     }
 }

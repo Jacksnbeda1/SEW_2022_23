@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SEW4",
+    "\\SEW4\\HUE01"
   ],
-  "SelectedNode": "\\SEW4.sln",
+  "SelectedNode": "\\SEW4\\HUE01\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
