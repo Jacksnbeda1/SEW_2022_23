@@ -8,27 +8,22 @@ namespace HUE01
 {
     internal class Messwert
     {
-        private List<string> mwList = new List<string>();
+        private float messwert;
+        private DateTime time;
 
-        public Messwert()
+        public Messwert(float messwert, DateTime time)
         {
+            this.messwert = messwert;
+            this.time = time;
+        }
 
-        }
-        public List<string> MWList
+        public float Messwert1
         {
-            get { return mwList; }
-            set { mwList = value; }
+            get { return messwert; }
+            set { this.messwert = value; }
+            
         }
-        public float mw()
-        {
-            float f = 0;
-            foreach(string number in mwList)
-            {
-                f += float.Parse(number);
-
-            }
-            mwList.Clear();
-            return f / 150;
-        }
+        
+        
     }
 }

@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/HK/N78QA0T4GkFK4HJVjcskFfRuymYjJq1rdf8raVPohdNmFbfw+kgGc3eN/ilfoGEeJ+WHC0xdVRfvxKuCeA==",
+  "dgSpecHash": "ejf26px2jEDq8XvrlEp8kF2JaTD18aheXGL8y5HNsDkB+EvVvH3dFJHUGXIe4egNGbnwM0MJVlEjwxvDmec/ig==",
   "success": true,
   "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\HUE01\\HUE01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakob\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jakob\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\jakob\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
-    "C:\\Users\\jakob\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\jakob\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+    "C:\\Users\\jakob\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
