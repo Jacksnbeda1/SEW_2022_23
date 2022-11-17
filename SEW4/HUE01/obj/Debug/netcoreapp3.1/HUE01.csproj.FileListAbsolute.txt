@@ -1,0 +1,16 @@
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\bin\Debug\netcoreapp3.1\HUE01.exe
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\bin\Debug\netcoreapp3.1\HUE01.deps.json
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\bin\Debug\netcoreapp3.1\HUE01.runtimeconfig.json
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\bin\Debug\netcoreapp3.1\HUE01.runtimeconfig.dev.json
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\bin\Debug\netcoreapp3.1\HUE01.dll
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\bin\Debug\netcoreapp3.1\HUE01.pdb
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.csproj.AssemblyReference.cache
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.Form1.resources
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.csproj.GenerateResource.cache
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.AssemblyInfoInputs.cache
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.AssemblyInfo.cs
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.csproj.CoreCompileInputs.cache
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.dll
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.pdb
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\HUE01\obj\Debug\netcoreapp3.1\HUE01.genruntimeconfig.cache
