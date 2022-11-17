@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\04Enums\\04Enums.csproj": {}
+    "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\04Enums\\04Enums.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\04Enums\\04Enums.csproj": {
+    "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\04Enums\\04Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\04Enums\\04Enums.csproj",
+        "projectUniqueName": "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\04Enums\\04Enums.csproj",
         "projectName": "04Enums",
-        "projectPath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\04Enums\\04Enums.csproj",
-        "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\04Enums\\obj\\",
+        "projectPath": "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\04Enums\\04Enums.csproj",
+        "packagesPath": "C:\\Users\\jakob.jehle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\04Enums\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jakob.jehle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

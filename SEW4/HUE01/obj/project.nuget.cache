@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ejf26px2jEDq8XvrlEp8kF2JaTD18aheXGL8y5HNsDkB+EvVvH3dFJHUGXIe4egNGbnwM0MJVlEjwxvDmec/ig==",
+  "dgSpecHash": "tvUltpD+mwWhvBT/z8e5wttgt9mV59paKTL/IkrsJenZ+tMMAaAb+EHE7VQ3twSfGzLn6g8lw79tEUBTlaVxBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\HUE01\\HUE01.csproj",
+  "projectFilePath": "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\HUE01\\HUE01.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jakob\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jakob\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\jakob\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
-    "C:\\Users\\jakob\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+    "C:\\Users\\jakob.jehle\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jakob.jehle\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\jakob.jehle\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\jakob.jehle\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\jakob.jehle\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512",
+    "C:\\Users\\jakob.jehle\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\jakob.jehle\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jakob.jehle\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }
