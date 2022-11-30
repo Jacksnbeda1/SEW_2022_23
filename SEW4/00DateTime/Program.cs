@@ -14,7 +14,6 @@ namespace _20DateTimeDemo
             Console.WriteLine("Month: " + dt.Month);
             Console.WriteLine("Tag: " + dt.Day);
             Console.WriteLine("Stunde: " + dt.Hour);
-            //Änderung
             Console.WriteLine("Minute: " + dt.Minute);
             Console.WriteLine("Sekunde: " + dt.Second);
             Console.WriteLine("Millisekunde: " + dt.Millisecond);
