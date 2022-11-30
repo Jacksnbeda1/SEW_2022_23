@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ejf26px2jEDq8XvrlEp8kF2JaTD18aheXGL8y5HNsDkB+EvVvH3dFJHUGXIe4egNGbnwM0MJVlEjwxvDmec/ig==",
+  "dgSpecHash": "kJ6f6dlPO7RFeTslAEDYIIeB++WzrU4Fq2e//f5AbAqkwZw/4hroHELGXp3p/0mgLvRFtQWU0szFsiMxVAkwQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\HUE01\\HUE01.csproj",
+  "projectFilePath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\HUE01\\HUE01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakob\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jakob\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
