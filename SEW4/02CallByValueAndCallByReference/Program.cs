@@ -17,7 +17,7 @@ void SwapS(Student a, Student b)
 {
     Student temp = a;
     a = b;
-    b=temp;
+    b = temp;
 }
 
 void SwapSRef(ref Student a, ref Student b)
@@ -36,7 +36,7 @@ void generateNumbers(out int a, out int b)
 void generateNumberArray(out int[] numbers)
 {
     numbers = new int[100];
-    for(int i = 0; i < numbers.Length; i++)
+    for (int i = 0; i < numbers.Length; i++)
     {
         numbers[i] = i * i;
     }
@@ -49,7 +49,7 @@ SwapD(a, b); // call by value
 Console.WriteLine("a: " + a);
 Console.WriteLine("b: " + b);
 
-SwapDRef(ref a,ref b); // call by reference
+SwapDRef(ref a, ref b); // call by reference
 
 
 Console.WriteLine("a: " + a);
@@ -76,7 +76,7 @@ Console.WriteLine("y: " + y);
 int[] myNumbers;
 generateNumberArray(out myNumbers);
 
-for(int i = 0; i < myNumbers.Length; i++)
+for (int i = 0; i < myNumbers.Length; i++)
 {
     Console.WriteLine(myNumbers[i]);
 }
