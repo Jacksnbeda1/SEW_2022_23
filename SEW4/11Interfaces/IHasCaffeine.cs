@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace _11Interfaces
 {
-    internal interface IHotDrink
+    internal interface IHasCaffeine
     {
-        public int Degree { get; set; }
-        public void cool();
+        float Caffeine { get; set; }
     }
 }
