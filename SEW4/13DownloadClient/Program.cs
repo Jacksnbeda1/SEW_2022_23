@@ -20,7 +20,8 @@ foreach (Uri url in urls)
 
     //durch den Asynchronen Aufruf wird der Code an dieser Stelle weiter ausgeführt.
 }
-Task.WaitAll(tasks.ToArray());        //warten bis alle Tasks fertig ist
+Task.WaitAll(tasks.ToArray());        
+//warten bis alle Tasks fertig ist
 
 
 void Downloaderfinished(object? sender, PdfDownloadEventArgs e)
