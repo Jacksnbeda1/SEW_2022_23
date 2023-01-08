@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
@@ -31,22 +32,22 @@ namespace HUE02
                 s.Substring(found + 1);     //zeichen nach:
                 zeilen.Add(s.Substring(0, found).ToString(), s.Substring(found + 1).ToString());
             }
-
+            //-----------------------------
             string content2 = System.IO.File.ReadAllText(path_answers_english);
-            string[] answer2 = content.Split("\n");
-
+            string[] answer2 = content2.Split("\n");
+            
             Dictionary<string, string> zeilen2 = new Dictionary<string, string>();
 
-            int[] splits3 = new int[10];
+            int[] splits2 = new int[10];
 
-            foreach (string s2 in answer2)
+            foreach (string s in answer2)
             {
-                int found2 = s2.IndexOf(":");
-                s2.Substring(0, found2);      //zeichen vor:
-                s2.Substring(found2 + 1);     //zeichen nach:
-                zeilen2.Add(s2.Substring(0, found2).ToString(), s2.Substring(found2 + 1).ToString());
+                int found = s.IndexOf(":");
+                //s.Substring(0, found);      //zeichen vor:
+                //s.Substring(found + 1);     //zeichen nach:
+                zeilen2.Add(s.Substring(0, found).ToString(), s.Substring(found + 1).ToString());
             }
-
+            //----------------------------------
             string content3 = System.IO.File.ReadAllText(path_random_german);
             string[] answer3 = content3.Split("\n");
             List<string> zeilen3 = new List<string>();
@@ -56,7 +57,7 @@ namespace HUE02
                 zeilen3.Add(s3);
             }
 
-
+            //-------------------------------------
             string content4 = System.IO.File.ReadAllText(path_random_english);
             string[] answer4 = content4.Split("\n");
             List<string> zeilen4 = new List<string>();
@@ -75,13 +76,15 @@ namespace HUE02
                 while (true)
                 {
 
-                    int x = 0;
+                    int x = 0 ;
                     string eingabe = Console.ReadLine();
                     string[] split = eingabe.Split(" ");
+                    string[] splitlower = new string[25];
 
                     for (int i = 0; i < split.Length; i++)
                     {
-                        split[i].ToLower();
+
+                      splitlower[i] = split[i].ToLower();
                     }
 
                     if (eingabe == "bye")
@@ -90,28 +93,29 @@ namespace HUE02
                         break;
                     }
 
-                    foreach (string eingabe1 in split)
+                    foreach (string eingabe1 in splitlower)
                     {
                         foreach (string wort in zeilen.Keys)
                         {
                             if (eingabe1 == wort)
                             {
-                                Console.WriteLine("Charly: " + zeilen[wort]);
-                                break;
+                                Console.WriteLine("Charly: " + zeilen[wort]);                               
                                 x = 1;
-                            }
-                            if (x == 0)
-                            {
-
-                                Random rand = new Random();
-                                int random = rand.Next(0, zeilen2.Count());
-                                string[] zeilen5 = zeilen3.ToArray();
-                                Console.WriteLine(zeilen5[random]);
                                 break;
                             }
+                            
                         }
-                        break;
+
+                        
                     }
+                    if (x==0)
+                    {
+                        Random rand = new Random();
+                        int random = rand.Next(0, zeilen3.Count());
+                        string[] zeilen5 = zeilen3.ToArray();
+                        Console.WriteLine(zeilen5[random]);
+                    }
+                    
                 }
             }
 
@@ -122,41 +126,45 @@ namespace HUE02
                 {
 
                     int x = 0;
-                    string eingabe2 = Console.ReadLine();
-                    string[] split2 = eingabe2.Split(" ");
+                    string eingabe = Console.ReadLine();
+                    string[] split = eingabe.Split(" ");
+                    string[] splitlower = new string[25];
 
-                    for (int i = 0; i < split2.Length; i++)
+                    for (int i = 0; i < split.Length; i++)
                     {
-                        split2[i].ToLower();
+                        splitlower[i] = split[i].ToLower();
+                        Console.WriteLine(splitlower[i]);
                     }
 
-                    if (eingabe2 == "bye")
+                    if (eingabe == "bye")
                     {
                         Console.WriteLine("Ciau!");
                         break;
                     }
 
-                    foreach (string eingabe1 in split2)
+                    foreach (string eingabe2 in splitlower)
                     {
-                        foreach (string wort3 in zeilen2.Keys)
+                        foreach (string wort1 in zeilen2.Keys)
                         {
-                            if (eingabe1 == wort3)
+                            if (eingabe2== wort1)
                             {
-                                Console.WriteLine("Charly: " + zeilen2[wort3] + "x");
-                                break;
+                                Console.WriteLine("Charly: " + zeilen2[wort1]);
                                 x = 1;
+                                break;
                             }
-                            //if (x == 0)
-                            //{
-                            //    Random rand = new Random();
-                            //    int random = rand.Next(0, zeilen2.Count());
-                            //    string[] zeilen6 = zeilen4.ToArray();
-                            //    Console.WriteLine(zeilen6[random]);
-                            //    break;
-                            //}
+
                         }
-                        break;
+
+                        
                     }
+                    if (x == 0)
+                    {
+                        Random rand = new Random();
+                        int random = rand.Next(0, zeilen4.Count());
+                        string[] zeilen5 = zeilen4.ToArray();
+                        Console.WriteLine(zeilen5[random]);
+                    }
+
                 }
             }
 
