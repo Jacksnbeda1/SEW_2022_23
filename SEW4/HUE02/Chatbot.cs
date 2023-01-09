@@ -35,7 +35,7 @@ namespace HUE02
             //-----------------------------
             string content2 = System.IO.File.ReadAllText(path_answers_english);
             string[] answer2 = content2.Split("\n");
-            
+
             Dictionary<string, string> zeilen2 = new Dictionary<string, string>();
 
             int[] splits2 = new int[10];
@@ -76,7 +76,7 @@ namespace HUE02
                 while (true)
                 {
 
-                    int x = 0 ;
+                    int x = 0;
                     string eingabe = Console.ReadLine();
                     string[] split = eingabe.Split(" ");
                     string[] splitlower = new string[25];
@@ -84,7 +84,7 @@ namespace HUE02
                     for (int i = 0; i < split.Length; i++)
                     {
 
-                      splitlower[i] = split[i].ToLower();
+                        splitlower[i] = split[i].ToLower();
                     }
 
                     if (eingabe == "bye")
@@ -99,23 +99,23 @@ namespace HUE02
                         {
                             if (eingabe1 == wort)
                             {
-                                Console.WriteLine("Charly: " + zeilen[wort]);                               
+                                Console.WriteLine("Charly: " + zeilen[wort]);
                                 x = 1;
                                 break;
                             }
-                            
+
                         }
 
-                        
+
                     }
-                    if (x==0)
+                    if (x == 0)
                     {
                         Random rand = new Random();
                         int random = rand.Next(0, zeilen3.Count());
                         string[] zeilen5 = zeilen3.ToArray();
                         Console.WriteLine(zeilen5[random]);
                     }
-                    
+
                 }
             }
 
@@ -133,7 +133,6 @@ namespace HUE02
                     for (int i = 0; i < split.Length; i++)
                     {
                         splitlower[i] = split[i].ToLower();
-                        Console.WriteLine(splitlower[i]);
                     }
 
                     if (eingabe == "bye")
@@ -146,7 +145,7 @@ namespace HUE02
                     {
                         foreach (string wort1 in zeilen2.Keys)
                         {
-                            if (eingabe2== wort1)
+                            if (eingabe2 == wort1)
                             {
                                 Console.WriteLine("Charly: " + zeilen2[wort1]);
                                 x = 1;
@@ -155,7 +154,7 @@ namespace HUE02
 
                         }
 
-                        
+
                     }
                     if (x == 0)
                     {
