@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SEW4",
+    "\\SEW4\\13DownloadClient"
   ],
-  "SelectedNode": "\\SEW4.sln",
+  "SelectedNode": "\\SEW4\\13DownloadClient\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
