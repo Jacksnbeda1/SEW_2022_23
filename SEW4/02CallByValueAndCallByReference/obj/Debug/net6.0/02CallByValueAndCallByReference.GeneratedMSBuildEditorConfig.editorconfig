@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _02CallByValueAndCallByReference
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\02CallByValueAndCallByReference\
+=======
+build_property.ProjectDir = C:\Users\jakob\source\repos\Jacksnbeda1\SEW_2022_23\SEW4\02CallByValueAndCallByReference\
+>>>>>>> ef6e4c2e1e7663c784bf00a3dc1710bcf5b9f8eb
