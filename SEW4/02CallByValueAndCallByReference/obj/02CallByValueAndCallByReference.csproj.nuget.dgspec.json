@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj": {}
+    "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj": {
+    "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj",
+        "projectUniqueName": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj",
         "projectName": "02CallByValueAndCallByReference",
-        "projectPath": "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj",
-        "packagesPath": "C:\\Users\\jakob.jehle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob.jehle\\source\\repos\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\obj\\",
+        "projectPath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj",
+        "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jakob.jehle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
