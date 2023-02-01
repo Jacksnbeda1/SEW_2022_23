@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj": {}
   },
   "projects": {
@@ -13,26 +12,9 @@
         "projectPath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj",
         "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\obj\\",
-=======
-    "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj",
-        "projectName": "01NullableDatatypes",
-        "projectPath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj",
-        "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\obj\\",
->>>>>>> d0a4ed4f74c7ea170ac0259d8bc62a5cd3554a2a
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
-<<<<<<< HEAD
-=======
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> d0a4ed4f74c7ea170ac0259d8bc62a5cd3554a2a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,11 +55,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> d0a4ed4f74c7ea170ac0259d8bc62a5cd3554a2a
         }
       }
     }
