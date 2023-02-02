@@ -2,22 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\SEW4",
-<<<<<<< HEAD
     "\\SEW4\\13DownloadClient"
   ],
   "SelectedNode": "\\SEW4\\13DownloadClient\\Program.cs",
-=======
-    "\\SEW4\\00DateTime",
-    "\\SEW4\\05Delegates\\obj",
-    "\\SEW4\\05Delegates\\obj\\Debug",
-    "\\SEW4\\05Delegates\\obj\\Debug\\net6.0",
-    "\\SEW4\\05Delegates\\obj\\Debug\\net6.0\\ref",
-    "\\SEW4\\05Delegates\\obj\\Debug\\net6.0\\refint",
-    "\\SEW4\\05Delegates\\obj\\Release",
-    "\\SEW4\\05Delegates\\obj\\Release\\net6.0",
-    "\\SEW4\\05Delegates\\obj\\Release\\net6.0\\ref"
-  ],
-  "SelectedNode": "\\SEW4\\00DateTime\\Program.cs",
->>>>>>> d0a4ed4f74c7ea170ac0259d8bc62a5cd3554a2a
   "PreviewInSolutionExplorer": false
 }

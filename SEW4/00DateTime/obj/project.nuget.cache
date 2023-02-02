@@ -1,8 +1,21 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "X2PuSLIf3RNYiTTjMCcUOTephuq7OqEZuL/xGCGxE/U6+ra6AGJNkpxLswqlWoGu0o3DbpUDYM3znEBbR827Tw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00DateTime\\00DateTime.csproj",
+=======
   "dgSpecHash": "dT283PlOicCSUEMqiLilUQrhZLpclAZ3ghG0+PtxAYsjALtoPP47ZKyUxSla5tuYwl4jE2AqAkC4iWuaDYzRSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00DateTime\\00DateTime.csproj",
+>>>>>>> ef6e4c2e1e7663c784bf00a3dc1710bcf5b9f8eb
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem beim Lesen der Cachedatei \"C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00DateTime\\obj\\project.nuget.cache\": Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

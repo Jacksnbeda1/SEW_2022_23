@@ -67,7 +67,7 @@ namespace HUE03
             }
 
             await Task.WhenAll(tasks);
-
+ 
             txtResult.AppendText("Alles Fertig!");
         }
 
