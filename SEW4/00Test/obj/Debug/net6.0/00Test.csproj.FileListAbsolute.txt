@@ -1,0 +1,15 @@
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\bin\Debug\net6.0\00Test.exe
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\bin\Debug\net6.0\00Test.deps.json
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\bin\Debug\net6.0\00Test.runtimeconfig.json
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\bin\Debug\net6.0\00Test.dll
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\bin\Debug\net6.0\00Test.pdb
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\00Test.csproj.AssemblyReference.cache
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\00Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\00Test.AssemblyInfoInputs.cache
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\00Test.AssemblyInfo.cs
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\00Test.csproj.CoreCompileInputs.cache
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\00Test.dll
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\refint\00Test.dll
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\00Test.pdb
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\00Test.genruntimeconfig.cache
+C:\Users\jakob\Source\Repos\Jacksnbeda1\SEW_2022_23\SEW4\00Test\obj\Debug\net6.0\ref\00Test.dll

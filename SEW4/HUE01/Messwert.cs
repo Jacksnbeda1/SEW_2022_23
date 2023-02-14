@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace HUE01
 {
@@ -21,9 +17,9 @@ namespace HUE01
         {
             get { return messwert; }
             set { this.messwert = value; }
-            
+
         }
-        
-        
+
+
     }
 }
