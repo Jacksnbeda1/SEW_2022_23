@@ -40,10 +40,11 @@ EndProject
 >>>>>>> c5237cc5656b0f7e848e1c0438f032d3bff38f29
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HUE01", "HUE01\HUE01.csproj", "{F9FF4700-BEE2-4FFE-BCFB-7615E8CEA68B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05Delegates", "05Delegates\05Delegates.csproj", "{6D58D8A7-69D7-4AEB-BC74-D477136091B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05Delegates", "05Delegates\05Delegates.csproj", "{6D58D8A7-69D7-4AEB-BC74-D477136091B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06Calculator", "06Calculator\06Calculator.csproj", "{76306C93-6270-43A2-B165-17DBB36DE4C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06Calculator", "06Calculator\06Calculator.csproj", "{76306C93-6270-43A2-B165-17DBB36DE4C2}"
 EndProject
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07Events", "07Events\07Events.csproj", "{52B8D171-591A-4A95-A5EB-A9BB87C0A487}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08FuncAction", "08FuncAction\08FuncAction.csproj", "{BCF16E31-8CAB-42A0-822F-5E51908ABECF}"
@@ -78,6 +79,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HUE01", "HUE01\HUE01.csproj
 >>>>>>> parent of 8c8c9d1 (7Event fertig)
 =======
 >>>>>>> c5237cc5656b0f7e848e1c0438f032d3bff38f29
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07Events", "07Events\07Events.csproj", "{52B8D171-591A-4A95-A5EB-A9BB87C0A487}"
+>>>>>>> parent of b3590cd (.)
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -126,6 +130,7 @@ Global
 		{52B8D171-591A-4A95-A5EB-A9BB87C0A487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B8D171-591A-4A95-A5EB-A9BB87C0A487}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B8D171-591A-4A95-A5EB-A9BB87C0A487}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{BCF16E31-8CAB-42A0-822F-5E51908ABECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BCF16E31-8CAB-42A0-822F-5E51908ABECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCF16E31-8CAB-42A0-822F-5E51908ABECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -177,6 +182,8 @@ Global
 >>>>>>> parent of 8c8c9d1 (7Event fertig)
 =======
 >>>>>>> c5237cc5656b0f7e848e1c0438f032d3bff38f29
+=======
+>>>>>>> parent of b3590cd (.)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -196,6 +203,7 @@ Global
 		{6D58D8A7-69D7-4AEB-BC74-D477136091B3} = {6AAAFAC5-AABD-4955-A6A1-7B82F22418EC}
 		{76306C93-6270-43A2-B165-17DBB36DE4C2} = {6AAAFAC5-AABD-4955-A6A1-7B82F22418EC}
 		{52B8D171-591A-4A95-A5EB-A9BB87C0A487} = {6AAAFAC5-AABD-4955-A6A1-7B82F22418EC}
+<<<<<<< HEAD
 		{BCF16E31-8CAB-42A0-822F-5E51908ABECF} = {6AAAFAC5-AABD-4955-A6A1-7B82F22418EC}
 		{AC7E21DF-3638-42F1-B035-CA0831E14041} = {6AAAFAC5-AABD-4955-A6A1-7B82F22418EC}
 		{C9331050-DE62-4FBA-830D-08CA1B0FB23F} = {6AAAFAC5-AABD-4955-A6A1-7B82F22418EC}
@@ -214,6 +222,8 @@ Global
 >>>>>>> parent of 8c8c9d1 (7Event fertig)
 =======
 >>>>>>> c5237cc5656b0f7e848e1c0438f032d3bff38f29
+=======
+>>>>>>> parent of b3590cd (.)
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7369E626-266E-4F4E-AB90-9458FD88D021}
