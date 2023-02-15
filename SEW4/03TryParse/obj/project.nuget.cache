@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "iH37dWjtYDCpB1yz7xfkjS5eMLSNSEyzyf1AOO2+8IuVZ1AHhATG8aU0WPZpIe6zcN9FK5Pj4qBfJJEAVk2j3g==",
+=======
+  "dgSpecHash": "EmNCaiytqgfEb8Jq3sAyw3kQuUSKDdMKdjrrOJEd7PLSz9oPFAc81v5ponQl8lhz2ELimGa1f7ARTUAz/pjbIw==",
+>>>>>>> 843c1b72a7f0d1f675d6696eb593fdcab6a2cc99
   "success": true,
   "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\03TryParse\\03TryParse.csproj",
   "expectedPackageFiles": [],
