@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "A8sZhb3fhdUq6dBuXGvVxog4QkqlRNGqy2qCRPF4TCmW4KYI2z9Ff9meESmy9gbmToDM0pxZPTRUDkR2XdYBXg==",
+=======
+  "dgSpecHash": "na8fmrrKY3ePppzELuPx/YQiQ400g1YzKHHyOie2OfiV9DGiMsbyNuAHl0BFxv7eb2wXK/lazqDGZfNROFhFIA==",
+>>>>>>> 843c1b72a7f0d1f675d6696eb593fdcab6a2cc99
   "success": true,
   "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\HUE01\\HUE01.csproj",
   "expectedPackageFiles": [

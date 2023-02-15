@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "DS0O0cCIqC3J7Q+QYl5KmWlbMcN3/apDFyxW91t+7SwN6IZ8jAIqxP3eSSw3/xOmDAOxbpjXo/iiAMvqb5TWAA==",
+=======
+  "dgSpecHash": "ldLjkeVP/KVYGn8CoXUynIalXGzsZgw0Nx53RuFeL5qVR/e0JGIobS3RQy6xlLqeC7nIwNcJRgNCS7abzXKwQw==",
+>>>>>>> 843c1b72a7f0d1f675d6696eb593fdcab6a2cc99
   "success": true,
   "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj",
   "expectedPackageFiles": [],
