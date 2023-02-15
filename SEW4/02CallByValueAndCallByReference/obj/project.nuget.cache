@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "sGjIfSLBViP1VnhQs5qKK2zoLT5qWfY5nS/sdKAfA6rysM0BbcedPIf1Bp2KM2E+Hcb9kPKkgHHcJUYQDksMVA==",
+=======
+  "dgSpecHash": "dp1hXSRdODqeQt2Fm0Q2Wg6OfTjt+iqxS6DUxj+1hxXPZwGU6Xv7iMjYsp2HKnfPyzDITEJySDi21VWX/2D/Zw==",
+>>>>>>> 843c1b72a7f0d1f675d6696eb593fdcab6a2cc99
   "success": true,
   "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\02CallByValueAndCallByReference\\02CallByValueAndCallByReference.csproj",
   "expectedPackageFiles": [],
