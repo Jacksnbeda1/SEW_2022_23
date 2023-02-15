@@ -63,11 +63,11 @@ namespace HUE03
 
             foreach (string file in analysePfad)
             {
-                tasks.Add(Task.Run(() => Analyse(file)));
+                tasks.Add(Task.Run(() => Analyse(file)));   // Hilfe von Zarzer
             }
 
             await Task.WhenAll(tasks);
-
+ 
             txtResult.AppendText("Alles Fertig!");
         }
 
@@ -82,7 +82,7 @@ namespace HUE03
             {
                 if (char.IsLetter((char)character))
                 {
-                    frequency[char.ToLower((char)character) - 'a']++; // vom Internet
+                    frequency[char.ToLower((char)character) - 'a']++; 
                 }
             }
 
@@ -98,12 +98,10 @@ namespace HUE03
             }
 
 
-            //progressBar.Invoke((MethodInvoker)delegate
-            //{
-            //    progressBar.Value++;
-            //});
-
-            progressBar.Value++;
+            progressBar.Invoke((MethodInvoker)delegate
+            {
+                progressBar.Value++;
+            });
 
             txtResult.Invoke((MethodInvoker)delegate
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj": {}
+    "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj": {
+    "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj",
+        "projectUniqueName": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj",
         "projectName": "00Test",
-        "projectPath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj",
+        "projectPath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\00Test.csproj",
         "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\obj\\",
+        "outputPath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\00Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

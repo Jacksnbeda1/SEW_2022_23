@@ -1,4 +1,4 @@
-namespace HUE03
+namespace _06Calculator
 {
     internal static class Program
     {
