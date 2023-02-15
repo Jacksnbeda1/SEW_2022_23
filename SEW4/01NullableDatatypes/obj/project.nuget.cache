@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "qbSDFsZZvUCWmSAl2alasUm/40enb4YZLPBJ3diUHlYdnwXuosfeNKDx1LihZHWsUxYQ0DI2D6LC0Hrx4sgz/Q==",
-=======
-  "dgSpecHash": "Py8SP9NVWr4zdb65QpS1wHt8Tk7m6neK7kcmDw3j3zNKKuI/lXzIpdDvE93aSzgqFva8ccPXC1i1dz3jjuU/rw==",
->>>>>>> 843c1b72a7f0d1f675d6696eb593fdcab6a2cc99
   "success": true,
   "projectFilePath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj",
   "expectedPackageFiles": [],
