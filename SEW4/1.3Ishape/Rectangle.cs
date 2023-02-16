@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace _1._3Ishape
 {
-    internal class Rectangle
+
+    public class Rectangle : IShape
+
     {
+       
+
+        private double length;
+        private double width;
+
+        public Rectangle(double length, double width)
+        {
+            this.length = length;
+            this.width = width;
+        }
+        public double CalculateArea()
+        {
+            return length * width;
+        }
+        public double CalculateCircumference()
+        {
+            return 2 * (length + width);
+        }
     }
 }
