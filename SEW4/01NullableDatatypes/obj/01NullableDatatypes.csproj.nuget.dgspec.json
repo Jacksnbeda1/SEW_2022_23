@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj": {}
+    "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj": {
+    "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj",
+        "projectUniqueName": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj",
         "projectName": "01NullableDatatypes",
-        "projectPath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj",
+        "projectPath": "C:\\Users\\jakob\\source\\repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\01NullableDatatypes.csproj",
         "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jakob\\Source\\Repos\\Jacksnbeda1\\SEW_2022_23\\SEW4\\01NullableDatatypes\\obj\\",
         "projectStyle": "PackageReference",

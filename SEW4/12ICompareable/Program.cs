@@ -1,4 +1,4 @@
-﻿using _12ICompareable;
+﻿using _12IComparable;
 
 Student markus = new Student("Markus", "Leonhardsberger", new DateTime(2002, 12, 30));
 Student felix = new Student("Felix", "Heidegger", new DateTime(2004, 12, 12));
