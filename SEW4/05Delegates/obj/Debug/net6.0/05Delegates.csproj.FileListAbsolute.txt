@@ -1,0 +1,15 @@
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\bin\Debug\net6.0\05Delegates.exe
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\bin\Debug\net6.0\05Delegates.deps.json
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\bin\Debug\net6.0\05Delegates.runtimeconfig.json
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\bin\Debug\net6.0\05Delegates.dll
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\bin\Debug\net6.0\05Delegates.pdb
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\05Delegates.csproj.AssemblyReference.cache
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\05Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\05Delegates.AssemblyInfoInputs.cache
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\05Delegates.AssemblyInfo.cs
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\05Delegates.csproj.CoreCompileInputs.cache
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\05Delegates.dll
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\refint\05Delegates.dll
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\05Delegates.pdb
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\05Delegates.genruntimeconfig.cache
+C:\Users\jakob.jehle\source\repos\SEW_2022_23\SEW4\05Delegates\obj\Debug\net6.0\ref\05Delegates.dll
