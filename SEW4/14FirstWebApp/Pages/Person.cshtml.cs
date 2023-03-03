@@ -17,6 +17,8 @@ namespace _14FirstWebApp.Pages
             this.Mails = new List<string>();
             this.Mails.Add("jakob.jehle@josephinum.at");
             this.Mails.Add("bioerdbeeren@biohof_jehle.at");
+
+            throw new InvalidOperationException("Jakob Jehle konnte nicht geladen werden.");
         }
     }
 }
