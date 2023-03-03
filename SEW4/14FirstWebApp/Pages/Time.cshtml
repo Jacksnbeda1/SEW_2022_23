@@ -1,0 +1,23 @@
+﻿@page
+@functions{
+    public string Date{
+        get{
+            return DateTime.Today.ToShortDateString();
+        }
+    }
+
+    public string Time{
+        get{
+            return DateTime.Now.ToLongTimeString();
+        }
+    }
+}
+<html>  
+    <body>
+        <h1>  Herzlich Willkommen</h1>
+        <div>
+                Datum: @Date <br />
+                Uhrzeit : @Time
+        </div>
+    </body>
+</html>

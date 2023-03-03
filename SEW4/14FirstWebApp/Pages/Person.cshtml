@@ -1,0 +1,39 @@
+﻿@page
+@model _14FirstWebApp.Pages.PersonModel
+@{
+}
+
+
+<div class="container-md">
+     <div class="row">
+         <div class="col-md-6">
+            FirstName:
+        </div>
+        <div class="col-md-6">
+               @Model.FirstName
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            LastName:
+        </div>
+        <div class="col-md-6">
+            @Model.LastName
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            Mails:
+        </div>
+        <div class="col-md-6">
+            @foreach (string m in Model.Mails)
+            {
+                @m
+                <br />
+            }
+        </div>
+        <div>   
+            <img src="~/erdbeeren.jfif"/>
+        </div>
+    </div>
+</div>
