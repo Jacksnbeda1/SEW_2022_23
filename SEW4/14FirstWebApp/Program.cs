@@ -20,6 +20,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseEndpoints(endpoints => { endpoints.MapGet("/name", () => "Thomas Riegler"); });
+
 app.MapRazorPages();
 
 app.Run();
