@@ -21,7 +21,7 @@ namespace _15SecondWebApp.Pages
         public IActionResult OnPostCalculateAndRedirect(double summand1, double summand2)
         {
             double summe = summand1 + summand2;
-            return RedirectToPage("Result", new {result=summe, calculation=$"{summand1} + {summand2} = "});
+            return RedirectToPage("Result", new {result=summe, calculation=$"{summand1} + {summand2} = ", source = "Addition"});
         }
     }
 }

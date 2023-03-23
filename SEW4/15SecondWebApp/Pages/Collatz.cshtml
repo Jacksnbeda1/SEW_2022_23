@@ -1,0 +1,21 @@
+﻿@page
+@model _15SecondWebApp.Pages.CollatzModel
+@{
+}
+<div class="container-md">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" asp-page-handler="Calculate">
+                <div>
+                    <input type="number" id="zahl" name="zahl" />
+                 </div>
+                @if (Model.Result.HasValue)
+                {
+                    <p> Ergebnis: @Model.Calculation</p>
+                }
+                 <br/>
+                <button type="submit"> Collatz Reihe berechnen.</button>
+            </form>         
+        </div>
+    </div>
+</div>
