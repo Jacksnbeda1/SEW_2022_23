@@ -1,0 +1,24 @@
+﻿@page
+@model HUE04.Pages.ZeitBisZumSchulschluss2023Model
+@{
+}
+
+
+<div class="container-md">
+    <div class="row">
+        <div class="col-md-12">
+            <form method="post" asp-page-handler="Schulschluss">
+                <div>Bitte gib den Schulschluss für dein Bundesland ein!</div>
+                <br />
+                <div>                
+                    <input type="date" id="Schulschluss" name="Schulschluss" />
+                </div>
+                <button type="submit"> Zeit berechnen.</button>
+            </form>
+           
+                <p> Tage bis zum Schulschluss: @Model.erg </p>
+            
+            </div>
+        </div>
+</div>
+
