@@ -35,7 +35,7 @@ namespace HUE05.Pages
             }
             hours = HoDi + KmHo;
 
-            minutes = (hours - Math.Truncate(hours))*60;
+            minutes = (hours - Math.Truncate(hours))*60;            //von Raphael Völker
 
             if (minutes > 45)
             {
