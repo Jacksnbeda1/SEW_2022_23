@@ -1,4 +1,75 @@
 ﻿@page
 @model HUE05.Pages.ZeitrechnerModel
-@{
+@{   
 }
+<div class="container">
+    <form method="post" asp-page-handler="Rechner">
+    <div class="row">
+        <h1>Zeitrechner zum Wandern</h1>
+       
+        <div class="col-sm-4">
+            <h3>Höhenmeter Aufstieg</h3>
+           
+            <div class="form-group">
+                <label for="HmAuf">Höhenmeter:</label>
+                    <input type="number" class="form-control" id="HmAuf" name="HmAuf" placeholder="Höhenmeter">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>Höhenmeter Abstieg</h3>
+            <div class="form-group">
+                <label for="HmAb">Höhenmeter:</label>
+                <input type="number" class="form-control" id="HmAb" name=" HmAb" placeholder="Höhenmeter">
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <h3>Kilometer horizontal</h3>
+            <div class="form-group">
+                <label for="KmHo">Kilometer:</label>
+                <input type="number" class="form-control" id="KmHo" name="KmHo" placeholder="Kilometer">
+            </div>
+            <br />
+                
+        </div>
+
+        <div class="col-sm-12">
+
+            <div class="col">
+                <button class="btn" type="submit">Berechnen</button>
+            </div>
+
+            <div class="form-group">
+            <div class="erg">
+                    Ergebnis  @Model.Erg
+            </div>
+                <br />
+            </div>
+        </div>
+        <img src="~/wandern.jpeg" alt="Wandern">
+        
+    </div>
+     </form>
+</div>
+
+<style>
+    .col {
+        text-align: center;
+    }
+
+    .btn{
+        background-color: lightblue;
+    }
+    .erg{
+        border: 1px solid lightgrey;
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: grey;
+  
+    }
+</style>
+
+
+
