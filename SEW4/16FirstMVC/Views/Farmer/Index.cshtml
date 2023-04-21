@@ -1,0 +1,30 @@
+﻿@{
+
+}
+@model FarmerModel
+
+<div class="container-xl">
+    <div class="row">
+        <div class="col-xl-6">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Address</th>
+                        <th>Birthday</th>
+                    </tr>
+                </thead>
+                @foreach(Farmer f in Model.Farmers)
+                {
+                    <tr>
+                        <td>@f.FirstName</td>
+                        <td>@f.LastName</td>
+                        <td>@f.Address</td>
+                        <td>@f.Birthday.ToShortDateString()</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>    
+</div>
