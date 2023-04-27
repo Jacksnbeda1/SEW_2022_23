@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "1.1Vollmond": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50859;http://localhost:50860"
+    }
+  }
+}

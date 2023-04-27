@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "13DownloadClient": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50867;http://localhost:50868"
+    }
+  }
+}

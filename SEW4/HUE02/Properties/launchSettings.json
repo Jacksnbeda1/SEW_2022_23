@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "HUE02": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50836;http://localhost:50844"
+    }
+  }
+}
