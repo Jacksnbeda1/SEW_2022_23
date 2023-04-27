@@ -18,9 +18,20 @@ namespace _16FirstMVC.Controllers
             return View(model);
         }
 
-        public IActionResult Detail()
+        public IActionResult Detail(string id)        //kommt per URL-Parameter
         {
-            return View(); // --> View Detail
+            Farmer f = model.Farmers.Where(f => f.LastName == id).FirstOrDefault();
+            return View(f); // --> View Detail
+        }
+        [HttpPost]
+        public IActionResult Edit(string id, Farmer farmer)     //Databinding aller Daten zum Objekt Farmer
+        {
+            // wir haben noch keine Datenbank in der wir Persistente Änderungen speichern können
+            Farmer f = model.Farmers.Where(f => f.LastName == id).FirstOrDefault();
+
+            //f mit den Daten von Farmer updaten
+            //danach speichern
+            return RedirectToAction("Index"); //zurückkehren zur Übersichtsseite
         }
     }
 }

@@ -13,6 +13,7 @@
                         <th>LastName</th>
                         <th>Address</th>
                         <th>Birthday</th>
+                        <th></th>
                     </tr>
                 </thead>
                 @foreach(Farmer f in Model.Farmers)
@@ -22,9 +23,18 @@
                         <td>@f.LastName</td>
                         <td>@f.Address</td>
                         <td>@f.Birthday.ToShortDateString()</td>
+                        <td>
+                            <a class="nav-link text-dark" asp-controller="Farmer" asp-action="Detail" asp-route-id="@f.LastName">Details</a>
+                        </td>
                     </tr>
                 }
             </table>
         </div>
     </div>    
 </div>
+
+<style>
+    .table{
+        background-color:cadetblue;
+    }
+</style>                  
