@@ -1,0 +1,20 @@
+﻿@page
+@model PrimeinputModelModel
+@{
+}
+<div class="Container-md">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" asp-page-handler="Calculate">
+                <div>
+                    <input type="number" id="value" name="value" />
+                </div>
+                <button type="submit">Ergebnis berechnen.</button>
+            </form>
+            @if (Model.Result.HasValue)
+            {
+                <p>Ergebni: @Model.Resultstring</p>
+            }
+        </div>
+    </div>
+</div>
