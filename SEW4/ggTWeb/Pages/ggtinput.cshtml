@@ -1,0 +1,23 @@
+﻿@page
+@model ggTWeb.Pages.ggtinputModel
+@{
+}
+<div class="Container-md">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" asp-page-handler="Calculate">
+                <div>
+                    <input type="number" id="value" name="value" />
+                </div>
+                <div>
+                    <input type="number" id="value2" name="value2" />
+                </div>
+                <button type="submit">ggT berechnen.</button>
+            </form>
+            @if (Model.Result.HasValue)
+            {
+                <p>Ergebni: @Model.Resultstring</p>
+            }
+        </div>
+    </div>
+</div>
