@@ -2,24 +2,28 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace HUE06Shared;
+namespace todoShared;
 
-public partial class Hue06Context : DbContext
+public partial class TodoContext : DbContext
 {
-    public Hue06Context()
+    public TodoContext()
     {
     }
 
-    public Hue06Context(DbContextOptions<Hue06Context> options)
+    public TodoContext(DbContextOptions<TodoContext> options)
         : base(options)
     {
     }
 
-    public virtual DbSet<TodoListe> TodoListes { get; set; }
+    public virtual DbSet<Priorität> Prioritäts { get; set; }
+
+    public virtual DbSet<Status> Statuses { get; set; }
+
+    public virtual DbSet<Todo> Todos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlite("Filename=db/HUE06.db");
+        => optionsBuilder.UseSqlite("Filename=db/todo.db");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HUE06DB\HUE06DB.csproj" />
+    <ProjectReference Include="..\HUE06Db\HUE06Db.csproj" />
   </ItemGroup>
 
 </Project>

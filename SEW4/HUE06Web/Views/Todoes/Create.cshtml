@@ -1,16 +1,16 @@
-﻿@model HUE06Shared.TodoListe
+﻿@model todoShared.Todo
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Create";
 }
 
-<h1>Edit</h1>
+<h1>Create</h1>
 
-<h4>TodoListe</h4>
+<h4>Todo</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Kurzbeschreibung" class="control-label"></label>
@@ -34,17 +34,14 @@
             </div>
             <div class="form-group">
                 <label asp-for="Priorität" class="control-label"></label>
-                <input asp-for="Priorität" class="form-control" />
-                <span asp-validation-for="Priorität" class="text-danger"></span>
+                <select asp-for="Priorität" class ="form-control" asp-items="ViewBag.Priorität"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
+                <select asp-for="Status" class ="form-control" asp-items="ViewBag.Status"></select>
             </div>
-            <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
