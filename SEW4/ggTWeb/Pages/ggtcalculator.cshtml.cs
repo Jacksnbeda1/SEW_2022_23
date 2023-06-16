@@ -9,7 +9,7 @@ namespace ggTWeb.Pages
     {
         public string Result { get; set; }
 
-        public void OnGet(double value, double value1)
+        public void OnGet(double value, double value2)
         {
            
         }
