@@ -1,4 +1,4 @@
-﻿namespace HUE06DB
+﻿namespace HUE06Db
 {
     public class Class1
     {

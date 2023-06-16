@@ -1,2 +1,2 @@
-dotnet ef dbcontext scaffold "Filename=db/HUE06.db" Microsoft.EntityFrameworkCore.Sqlite --force --namespace HUE06Shared --data-annotations
+dotnet ef dbcontext scaffold "Filename=db/todo.db" Microsoft.EntityFrameworkCore.Sqlite --force --namespace todoShared --data-annotations
 pause
